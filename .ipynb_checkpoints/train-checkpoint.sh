@@ -1,0 +1,1 @@
+python train_net.py --num-gpus 1 --config-file configs/image_caption/xlan/xlan.yaml
