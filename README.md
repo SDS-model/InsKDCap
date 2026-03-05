@@ -141,5 +141,12 @@ The caption generation dataset can be configured according to the path specified
 ```bash
 bash train.sh
 ```
+## Acknowledgement
+
+We would like to thank Yehao Li, Yingwei Pan and others for building the [X-modaler](https://github.com/YehLi/xmodaler) framework
+
+## Community efforts
+
+Our code repository is built on top of the [X-modaler](https://github.com/YehLi/xmodaler) project. Great work!
 
 
