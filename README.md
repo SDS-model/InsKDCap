@@ -121,4 +121,10 @@ This dataset adopts the following format.
  }
 }
 ```
+1.3.Training Dataset Format for Image Captioning
+
+The training data format for insulator image caption generation follows the image caption format of the COCO dataset.
+
+2.Train
+
 
