@@ -50,5 +50,75 @@ This dataset adopts the following format.
         {
             "visual_id": "1.npz",
             "text_ids": [1,5,7,13,16]  
-        },
+        }
+  ]
+}
 ```
+1.2.Dataset Structure of Scene Knowledge Graph Network
+
+This dataset adopts the following format.
+```bash
+{
+  "images": {
+    "img54.jpg": {
+      "g_feature_path": "./data/54.npz",
+      "env_feature": "dust",
+      "problem": "causing insulator flashover",
+      "solution": "regular cleaning"
+    },
+    "img57.jpg": {
+      "g_feature_path": "./data/57.npz",
+      "env_feature": "dust",
+      "problem": "causing insulator flashover",
+      "solution": "anti-fouling coating"
+    }
+    },
+  "knowledge_graph": {
+    "environment_features": {
+      "dust": {
+        "name": "dust",
+        "problems": [
+          "causing insulator flashover"
+        ]
+      },
+      "dry environment": {
+        "name": "dry environment",
+        "problems": [
+          "partial discharge",
+          "aging of insulation components"
+        ]
+      }
+    },
+    "problems": {
+      "causing insulator flashover": {
+        "name": "causing insulator flashover",
+        "solutions": [
+          "regular cleaning",
+          "anti-fouling coating"
+        ]
+      },
+      "partial discharge": {
+        "name": "partial discharge",
+        "solutions": [
+          "install grading ring"
+        ]
+      },
+      "aging of insulation components": {
+        "name": "aging of insulation components",
+        "solutions": [
+          "install the shading skirt"
+        ]
+      }
+    },
+    "solutions": {
+      "regular cleaning": {
+        "name": "regular cleaning"
+      },
+      "anti-fouling coating": {
+        "name": "anti-fouling coating"
+      }
+   }
+ }
+}
+```
+
