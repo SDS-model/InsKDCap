@@ -127,4 +127,19 @@ The training data format for insulator image caption generation follows the imag
 
 2.Train
 
+For the training of the Attribute-Aware Hash-Code Mapping Network, after constructing the dataset, place it in the Attribute-Aware Hash-Code Mapping Network folder and run the main file to generate the weight file. 
+```bash
+cd Attribute-Aware Hash-Code Mapping Network
+python main.py
+```
+Similarly, when training the Scene Knowledge Graph Network, place the constructed dataset in the Scene Knowledge Graph Network folder and run the main file to generate the model weights.
+```bash
+cd Scene Knowledge Graph Network
+python main.py
+```
+The caption generation dataset can be configured according to the path specified in the file configs/image_caption/transformer/transformer.yaml, and the adjustment of training parameters is also performed in this folder.
+```bash
+bash train.sh
+```
+
 
