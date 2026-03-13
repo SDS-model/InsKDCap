@@ -125,6 +125,8 @@ This dataset adopts the following format.
 
 The training data format for insulator image caption generation follows the image caption format of the COCO dataset.
 
+Our dataset is available at the following link: <https://pan.baidu.com/s/1ZqtppLU4bZN7ARnMZ24y1A>, with the extraction code 9fds.
+
 2.Train
 
 For the training of the Attribute-Aware Hash-Code Mapping Network, after constructing the dataset, place it in the Attribute-Aware Hash-Code Mapping Network folder and run the main file to generate the weight file. 
